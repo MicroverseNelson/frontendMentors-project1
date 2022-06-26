@@ -46,6 +46,7 @@ body{
 
     .floatingDiv {
       width:300px;
+      height: 400px;
     }
    
   
@@ -58,9 +59,9 @@ body{
     }
 
     .right-desc {
-        width:40%;
         background-color: $white;
-        padding:10px 20px 40px 20px;
+        padding:10px 40px 40px 20px;
+        
         
         .desc-content {
           display: flex;
@@ -69,7 +70,7 @@ body{
           gap:24px;
           margin-left: 8px;
           margin-right: 8px;
-          margin-top: 40px;
+          margin-top: 14px;
         
 
           .header {
@@ -83,12 +84,14 @@ body{
           .card-body {
             h1{
                 margin-bottom: 20px;
+                margin-top: -4px;
                 color:$dark-blue;
                 font-family: $font-stack2;
 
             }
             p {
                 color: $dark-grayish-blue;
+                margin-top: -3px;
             }
           }
 
