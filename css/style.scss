@@ -23,6 +23,7 @@ $font-stack2: 'Fraunces', serif;
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin:20px 0 10px
 
     a {
         color: hsl(228, 45%, 44%);
@@ -41,7 +42,7 @@ body{
     width: 600px;
     border-radius: 10px;
     overflow: hidden;
-    margin: 100px 0  30px 350px;
+    margin: 100px 0  30px 380px;
 
     .floatingDiv {
       width:300px;
